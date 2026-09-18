@@ -1,10 +1,13 @@
-﻿namespace Exam01
+﻿using System.Diagnostics;
+
+namespace Exam01
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Subject subject = new Subject();
+            subject.CreateExam();
         }
     }
 }
